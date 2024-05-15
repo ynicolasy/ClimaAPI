@@ -9,7 +9,7 @@ function obtenerDatos() {
 
     //al final de la url después del signo igual = poner la key provista por openweather
     
-    let url ='http://api.openweathermap.org/data/2.5/weather?q=Buenos%20Aires,AR&lang=es&units=metric&appid=739d7e9a544b0e0f283582c3fdd7a95d';
+    let url ='http://api.openweathermap.org/data/2.5/weather?q=Buenos%20Aires,AR&lang=es&units=metric&appid=';
 
     // instancio peticion 
     const api = new XMLHttpRequest();
